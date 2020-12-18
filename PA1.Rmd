@@ -1,11 +1,12 @@
-
-# "Reproducible Research: Peer Assessment 1"
-
-by: "Sarah Massengill"  
+---
+title: "Reproducible Research: Peer Assessment 1"  
+author: "Sarah Massengill"  
 date: "12/16/2020"  
-output: 
- html_document:
+output:   
+  html_document:
     keep_md: true
+    
+---
 
 ## Introduction to the project
 

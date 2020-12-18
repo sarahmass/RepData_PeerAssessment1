@@ -1,10 +1,11 @@
 ---
-title: "Reproducible Research: Peer Assessment 1"
-author: "Sarah Massengill"
-date: "12/16/2020"
-output: 
+title: "Reproducible Research: Peer Assessment 1"  
+author: "Sarah Massengill"  
+date: "12/16/2020"  
+output:   
   html_document:
     keep_md: true
+    
 ---
 
 ## Introduction to the project
@@ -284,10 +285,12 @@ library(ggplot2)
 act.time <- group_by(activity, time.of.day)
 
 ## create a human readable time of day vector            
-times = unique(with(act.time, paste0(as.character(hour(time.hms)),":",as.character(minute(time.hms)))))
+times = unique(with(act.time, paste0(as.character(hour(time.hms)),
+                                     ":",as.character(minute(time.hms)))))
 
 ## find the mean number of steps taken for each 5 minute time interval
-mean.daily.act <- summarize(act.time, mean.steps = mean(steps, na.rm = TRUE), median.steps = median(steps, na.rm = TRUE)) 
+mean.daily.act <- summarize(act.time, mean.steps = mean(steps, na.rm = TRUE),
+                            median.steps = median(steps, na.rm = TRUE)) 
 ```
 
 ```
