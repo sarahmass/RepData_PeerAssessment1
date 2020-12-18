@@ -1,10 +1,10 @@
 
-"Reproducible Research: Peer Assessment 1"
-================================================================================
+# "Reproducible Research: Peer Assessment 1"
+
 by: "Sarah Massengill"  
 date: "12/16/2020"  
 output: 
-  html_document:
+ html_document:
     keep_md: true
 
 ## Introduction to the project
