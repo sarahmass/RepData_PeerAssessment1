@@ -1,12 +1,11 @@
 ---
 title: "Reproducible Research: Peer Assessment 1"  
-author: "Sarah Massengill"  
-date: "12/16/2020"  
 output:   
   html_document:
     keep_md: true
-    
 ---
+by: Sarah Massengill  
+date: December 17, 2020
 
 ## Introduction to the project
 
