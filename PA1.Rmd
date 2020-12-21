@@ -27,6 +27,7 @@ There are a total of 17,568 observations in the dataset.
 
 ## Loading and preprocessing the data
 
+
 The data is stored in the file *activity.zip*, and may need to be unzipped. A check
 for the existence of *activity.csv* will determine if the file needs to be unzipped.
  
@@ -308,4 +309,10 @@ g2 <- ggplot(data = ave.daily.steps, aes(x= time.of.day, y = mean.steps))+
       scale_y_continuous(breaks=seq(0,225,25))
 g2
 
+```
+
+Here are the dependencies used for this report:
+
+```{r, Session Info}
+sessionInfo()
 ```

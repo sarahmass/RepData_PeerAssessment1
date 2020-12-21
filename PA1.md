@@ -27,6 +27,7 @@ There are a total of 17,568 observations in the dataset.
 
 ## Loading and preprocessing the data
 
+
 The data is stored in the file *activity.zip*, and may need to be unzipped. A check
 for the existence of *activity.csv* will determine if the file needs to be unzipped.
  
@@ -473,3 +474,42 @@ g2
 ```
 
 ![](PA1_files/figure-html/WeekdayvWeekend-1.png)<!-- -->
+
+Here are the dependencies used for this report:
+
+
+```r
+sessionInfo()
+```
+
+```
+## R version 4.0.3 (2020-10-10)
+## Platform: x86_64-w64-mingw32/x64 (64-bit)
+## Running under: Windows 10 x64 (build 18363)
+## 
+## Matrix products: default
+## 
+## locale:
+## [1] LC_COLLATE=English_United States.1252 
+## [2] LC_CTYPE=English_United States.1252   
+## [3] LC_MONETARY=English_United States.1252
+## [4] LC_NUMERIC=C                          
+## [5] LC_TIME=English_United States.1252    
+## 
+## attached base packages:
+## [1] stats     graphics  grDevices utils     datasets  methods   base     
+## 
+## other attached packages:
+## [1] ggplot2_3.3.2     dplyr_1.0.2       lubridate_1.7.9.2
+## 
+## loaded via a namespace (and not attached):
+##  [1] Rcpp_1.0.5       knitr_1.30       magrittr_2.0.1   munsell_0.5.0   
+##  [5] tidyselect_1.1.0 colorspace_2.0-0 R6_2.5.0         rlang_0.4.8     
+##  [9] stringr_1.4.0    tools_4.0.3      grid_4.0.3       gtable_0.3.0    
+## [13] xfun_0.19        withr_2.3.0      htmltools_0.5.0  ellipsis_0.3.1  
+## [17] yaml_2.2.1       digest_0.6.27    tibble_3.0.4     lifecycle_0.2.0 
+## [21] crayon_1.3.4     farver_2.0.3     purrr_0.3.4      vctrs_0.3.4     
+## [25] glue_1.4.2       evaluate_0.14    rmarkdown_2.5    stringi_1.5.3   
+## [29] compiler_4.0.3   pillar_1.4.7     scales_1.1.1     generics_0.1.0  
+## [33] pkgconfig_2.0.3
+```
